@@ -1,0 +1,50 @@
+html, body {
+    width: 100%;
+    height:100%;
+  }
+  
+  body {
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background-size: 400% 400%;
+      animation: gradient 5s ease infinite;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Courier New', Courier, monospace;
+  }
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+
+#boredApi {
+    display: flex;
+    justify-content: center;
+}
+
+#top-text{
+    display: flex;
+    justify-content: center;;
+}
+
+#Bored-Button {
+    border-radius: 50%;
+    padding: 30px;
+    border: 1px black solid;
+    background-color: red;
+}
+
+#Bored-Button:hover {
+    background-color: black;
+    cursor: pointer;
+    border: 1px red solid;
+}
